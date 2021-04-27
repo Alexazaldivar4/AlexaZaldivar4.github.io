@@ -164,10 +164,11 @@ footer div{
   main {
     grid-template-columns: 1fr;
   }
+
   a{
-    color: #4a5759;
+    color: #641220;
   }
   header a{
-    color: #4a5759;
+    color: #641220;
   }
 }
