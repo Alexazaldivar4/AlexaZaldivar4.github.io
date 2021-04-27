@@ -87,7 +87,7 @@ img {
   margin: 1.69em auto;
   }
 .myButton:hover {
-  background-color:#e69708;
+  background-color: rgba(0, 0, 0, .1);
   }
 .myButton:active {
   position:relative;
@@ -150,15 +150,24 @@ img {
   margin: auto;
 }
 
-footer {
-  margin-top: 44px;
+footer div{
+  height: 100%;
+  font-family: 'BioRhyme', serif;
+  font-size: 14px;
+  display: flex;
+  align-content: center;
+  padding: 10px 20px;
+  color: rgba(255, 255, 255, 0.5);
 }
 
 @media all and (max-width:700px) {
   main {
     grid-template-columns: 1fr;
   }
-  a {
-    color:#774936;
+  a{
+    color: #774936;
+  }
+  header a{
+    color: #774936;
   }
 }
