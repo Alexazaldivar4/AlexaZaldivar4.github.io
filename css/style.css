@@ -9,7 +9,10 @@
    }
 
 header, footer {
-  background-color: #f07167;
+  background: #EC6F66;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #F3A183, #EC6F66);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #F3A183, #EC6F66); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   text-align:center;
 /* min-width: 500px; */
 }
@@ -48,7 +51,7 @@ h2 {
   font-weight: 600;
   letter-spacing: 0.3px;
   text-align: left;
-  color: #f07167;
+  color: #EC6F66;
   padding: 10px 0px 10px 10px;
 }
 
@@ -157,7 +160,7 @@ footer div{
   display: flex;
   align-content: center;
   padding: 10px 20px;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 1);
 }
 
 @media all and (max-width:700px) {
