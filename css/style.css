@@ -61,6 +61,13 @@ img {
   object-fit: cover;
 }
 
+a {
+  color: #641220;
+}
+header a {
+  color: #641220;
+}
+
 .wrapper {
   max-width: 1150px;
   margin: auto;
@@ -168,10 +175,4 @@ footer div{
     grid-template-columns: 1fr;
   }
 
-  a {
-    color: #641220;
-  }
-  header a{
-    color: #641220;
-  }
 }
