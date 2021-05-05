@@ -19,7 +19,7 @@ header, footer {
 
 header {
   font-family:'Space Mono', monospace;
-  color: #fff;
+  color: #ff006e;
   min-height: 100vh;
   display: flex;
 }
@@ -62,10 +62,10 @@ img {
 }
 
 a {
-  color: #641220;
+  color: #ff006e;
 }
 header a {
-  color: #641220;
+  color: #ff006e;
 }
 
 .wrapper {
